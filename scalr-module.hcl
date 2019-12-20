@@ -14,3 +14,7 @@ variable "cluster_name" {
 variable "service_name" {
   global_variable = "name_fmt"
 }
+
+variable "mysql_password" {
+  global_variable = "sensitive_input"
+}
